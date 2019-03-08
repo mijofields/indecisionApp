@@ -1,0 +1,39 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "learning react",
+  "main": "index.js",
+  "author": "Mike Fields",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack",
+    "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "playground": "babel src/playground/counter.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "live-server": "^1.2.1",
+    "node-sass": "4.5.3",
+    "normalize.css": "7.0.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-modal": "2.2.2",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "validator": "8.0.0",
+    "webpack": "^4.29.5",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
